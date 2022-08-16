@@ -2,6 +2,11 @@
 
 A Clojure library designed to bring order to chaotic world of socket communication.
 
+Leiningen coordinates:
+```clojure
+[io.spinney/electric-socket "1.0.0"]
+```
+
 ## Usage
 
 The library does not communicate with sockets by itself. Instead it relies on the user to bring in fuunctions responsible for sending sockets.
